@@ -1,0 +1,99 @@
+.underline {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.pronunciation {
+    width: 25px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+    font-weight: 850;
+}
+
+.green {
+    color: green;
+    font-weight: 850;
+}
+
+.blue {
+    color: blue;
+    font-weight: 850;
+}
+
+main {
+    margin: 1.5rem 0
+}
+
+label {
+    vertical-align: unset;
+}
+
+input {
+    margin: .5rem;
+}
+
+form {
+    margin: 5px 0;
+}
+
+#save,
+#save ~ label,
+#selectInput,
+#startTest {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 75px;
+    background-color: #acacac;
+}
+
+#load {
+    font-size: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+div > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#selection {
+    display: grid;
+    grid-template-columns: repeat(8, .1fr 5fr);
+}
+
+#form-selection > section:last-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+#form {
+    display: none;
+}
+
+table {
+    text-align: center;
+}
+
+thead {
+    font-size: 1.3rem;
+}
+
+
+td {
+    border: 2px solid black;
+    padding: .5rem;
+    height: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    #selection {
+        grid-template-columns: repeat(2, .1fr 5fr);
+    }
+}
